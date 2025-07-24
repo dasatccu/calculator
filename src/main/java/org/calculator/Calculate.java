@@ -10,8 +10,8 @@ public class Calculate {
   private double secondNumber;
 
   public Calculate(Values value) {
-    this.firstNumber = (double) value.firstNumber;
-    this.secondNumber = (double) value.secondNumber;
+    this.firstNumber = value.firstNumber;
+    this.secondNumber = value.secondNumber;
     LOGGER.info("Values entered {},{}", value.firstNumber, value.secondNumber);
   }
 
